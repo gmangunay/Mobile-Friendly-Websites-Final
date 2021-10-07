@@ -1,0 +1,6 @@
+.jumbotron{
+    /* Full page jumbotron */
+    height: calc(100vh - 40px);
+
+    background-color: white;
+}
