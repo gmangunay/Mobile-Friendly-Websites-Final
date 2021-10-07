@@ -1,6 +1,47 @@
 .jumbotron{
     /* Full page jumbotron */
-    height: calc(100vh - 40px);
+    height: calc(100vh - 56px);
+    background-color: gainsboro;
+}
+/* profile picture */
+.img-thumbnail{
+    border: none;
+    border-radius: 10%;
+}
 
-    background-color: white;
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .aboutText{
+        padding:50px 5px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .aboutText{
+        padding:100px 50px;
+    }
+}
+ 
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .img-thumbnail{
+        height: 50vh;
+    }
+    .aboutText{
+        padding:100px 50px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .img-thumbnail{
+        height: 50vh;
+    }
+    .aboutText{
+        padding-right: 300px;
+    }
 }
