@@ -11,11 +11,6 @@
 }
 .aboutWrapper{
     height: calc(100vh);
-    background-color: wheat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; 
-    background-color:  white;
 }
 
 /* profile picture */
@@ -26,20 +21,55 @@
     margin-bottom: 50%;
 }
 
+.workwrapper{
+    /* ls */
 
+}
+.contactwrapper{
+    /* height: calc(100vh); */
+ 
+}
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 .footer{
     padding: 15px;;
 }
+
+
+
+
+
+
+
+
+
+
 /* // Small devices (landscape phones, 300px and up) */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .greeting{
         padding: 50px;
         font-size: calc(10vh);
     }
-    
-    /* .aboutText{
-        padding:50px 5px;
-    } */
+    .aboutWrapper{
+        margin: 20px;
+    }
+    .workwrapper{
+        margin: 20px;
+    }
+    .contactwrapper{
+        margin: 20px;
+    }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -47,9 +77,15 @@
         padding: 50px;
         font-size: calc(10vh);
     }
-    /* .aboutText{
-        padding:50px 5px;
-    } */
+    .aboutWrapper{
+        margin: 60px;
+    }
+    .workwrapper{
+        margin: 60px;
+    }
+    .contactwrapper{
+        margin: 60px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -58,14 +94,20 @@
         padding: 50px;
         font-size: calc(12vh);
     }
-    /* .aboutText{
-        padding:100px 50px;
-    } */
+    .aboutWrapper{
+        margin: 80px;
+    }
+    .workwrapper{
+        margin: 80px;
+    }
+    .contactwrapper{
+        margin: 80px;
+    }
 }
  
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 971px) { 
     .greeting{
         padding: 50px;
         font-size: calc(15vh);
@@ -73,9 +115,15 @@
     .img-thumbnail{
         height: 50vh;
     }
-    /* .aboutText{
-        padding:100px 50px;
-    } */
+    .aboutWrapper{
+        margin: 100px;
+    }
+    .workwrapper{
+        margin: 100px;
+    }
+    .contactwrapper{
+        margin: 100px;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -84,11 +132,13 @@
         padding: 50px;
         font-size: calc(25vh);
     }
-
- /*    .img-thumbnail{
-        height: 50vh;
-    } */
-    /* .aboutText{
-        padding-right: 300px 50px;
-    } */
+    .aboutWrapper{
+        margin: 200px;
+    }
+    .workwrapper{
+        margin: 200px;
+    }
+    .contactwrapper{
+        margin: 200px;
+    }
 }
