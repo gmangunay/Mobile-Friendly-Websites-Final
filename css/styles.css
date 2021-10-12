@@ -1,25 +1,45 @@
+
 .jumbotron{
-    /* Full page jumbotron */
-    height: calc(100vh - 56px);
-    background-color: gainsboro;
+    height: calc(100vh);
+    color: #404040;
+
+    /* background-image: url("/images/pexels-samuel-walker-1980720.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    /* background-color:  #404040; */
 }
+.aboutWrapper{
+    height: calc(100vh);
+    background-color: wheat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-color:  white;
+}
+
 /* profile picture */
 .img-thumbnail{
     border: none;
     border-radius: 10%;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
-.heading h2{
-    padding: 25px 0px;
+
+
+.footer{
+    padding: 15px;;
 }
 /* // Small devices (landscape phones, 300px and up) */
-@media (min-width: 300px) {
+@media (min-width: 400px) {
     .greeting{
         padding: 50px;
-        font-size: calc(5vh);
+        font-size: calc(10vh);
     }
-    .aboutText{
+    
+    /* .aboutText{
         padding:50px 5px;
-    }
+    } */
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -27,9 +47,9 @@
         padding: 50px;
         font-size: calc(10vh);
     }
-    .aboutText{
+    /* .aboutText{
         padding:50px 5px;
-    }
+    } */
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -38,9 +58,9 @@
         padding: 50px;
         font-size: calc(12vh);
     }
-    .aboutText{
+    /* .aboutText{
         padding:100px 50px;
-    }
+    } */
 }
  
 
@@ -53,9 +73,9 @@
     .img-thumbnail{
         height: 50vh;
     }
-    .aboutText{
+    /* .aboutText{
         padding:100px 50px;
-    }
+    } */
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -65,10 +85,10 @@
         font-size: calc(25vh);
     }
 
-    .img-thumbnail{
+ /*    .img-thumbnail{
         height: 50vh;
-    }
-    .aboutText{
+    } */
+    /* .aboutText{
         padding-right: 300px 50px;
-    }
+    } */
 }
