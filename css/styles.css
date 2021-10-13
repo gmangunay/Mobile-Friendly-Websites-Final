@@ -10,7 +10,7 @@
     /* background-color:  #404040; */
 }
 .aboutWrapper{
-    height: calc(100vh);
+   
 }
 
 /* profile picture */
@@ -57,9 +57,10 @@
 
 /* // Small devices (landscape phones, 300px and up) */
 @media (min-width: 300px) {
+    
     .greeting{
-        padding: 50px;
-        font-size: calc(10vh);
+       
+        font-size: calc(8vh);
     }
     .aboutWrapper{
         margin: 20px;
