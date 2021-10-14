@@ -31,26 +31,39 @@
 
   <body>
 
+
     <div class="container-fluid">
-    <!-- navbar -->
+    
+      <!-- navbar -->
       <div class="row">
         <nav class="col navbar navbar-expand-lg navbar-light fixed-top">
-          <a class="navbar-brand" href="#page1">GM</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-            <div class="navbar-nav">
-              <a class="nav-link" href="#home"> Home <span class="sr-only">(current)</span></a>
-              <a class="nav-link" href="#about"> About </a>
-              <a class="nav-link" href="#work"> Work </a>
-              <a class="nav-link" href="#page3"> Contact </a>
-             
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#home">GM</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#work">Work</a>
+                <a class="nav-link" href="#contact">Contact</a
+                >
+              </div>
             </div>
           </div>
         </nav>
       </div>
 
+      
       <!-- jumbotron -->
       <div class="row jumotronWrapper" id="home">
         <div class="col jumbotron jumbotron-fluid text-center d-flex justify-content-center align-items-center">
@@ -91,9 +104,7 @@
                   </div>
                 </div>
               </div>  
-              
             <h2>I'm Genesis Mangunay</h2>
-          
           </div>
         </div>
       </div>
@@ -246,7 +257,7 @@
        </div>
      </div>
       <!-- Contact heading -->
-      <div class="row">
+      <div class="row" id="contact">
         <div class="col heading text-center">
           <h2>Contact</h2>
         </div>
@@ -280,13 +291,13 @@
                       <div class="md-form">
                         <i class="fas fa-user prefix grey-text"></i>
                         <input type="text" id="form-name" class="form-control">
-                        <label for="form-name">Your name</label>
+                        <label for="form-name">Name</label>
                       </div>
 
                       <div class="md-form">
                         <i class="fas fa-envelope prefix grey-text"></i>
                         <input type="text" id="form-email" class="form-control">
-                        <label for="form-email">Your email</label>
+                        <label for="form-email">Email</label>
                       </div>
 
                       <div class="md-form">
