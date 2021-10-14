@@ -1,4 +1,7 @@
 
+html { 
+    scroll-behavior: smooth; 
+} 
 .jumbotron{
     height: calc(100vh);
     color: #404040;
