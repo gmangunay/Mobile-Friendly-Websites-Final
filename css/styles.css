@@ -5,8 +5,8 @@ html {
 
 .jumbotron{
     height: calc(100vh);
-    color: #404040;
-
+    
+    background-color: transparent;
 
 }
 
@@ -17,15 +17,24 @@ html {
     margin-top: 50%;
     margin-bottom: 50%;
 }
-
-.workwrapper{
-    /* ls */
-
+input:checked, input:checked + * {
+    background-color: black;
+    color: white;
+    transition: .8s;
 }
-.contactwrapper{
-    /* height: calc(100vh); */
- 
+
+input[type="checkbox"]{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 1; /* layers */
+    cursor: pointer;
 }
+
+.card{
+    background-color: gray;
+}
+
 .map-container-6{
     overflow:hidden;
     padding-bottom:56.25%;
