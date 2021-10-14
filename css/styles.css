@@ -2,15 +2,12 @@
 html { 
     scroll-behavior: smooth; 
 } 
+
 .jumbotron{
     height: calc(100vh);
     color: #404040;
 
-    /* background-image: url("/images/pexels-samuel-walker-1980720.jpg"); */
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; 
-    /* background-color:  #404040; */
+
 }
 
 /* profile picture */
@@ -45,14 +42,6 @@ html {
 .footer{
     padding: 15px;;
 }
-
-
-
-
-
-
-
-
 
 
 /* // Small devices (landscape phones, 300px and up) */
@@ -143,3 +132,4 @@ html {
         margin: 200px;
     }
 }
+
