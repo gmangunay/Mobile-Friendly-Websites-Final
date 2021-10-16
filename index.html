@@ -30,13 +30,19 @@
   </head>
 
   <body>
-    <input type="checkbox"/> 
+    
+      <input
+        class="form-check-input"
+        type="checkbox"
+      />
+
+     
 
     <div class="container-fluid">
       
         <!-- navbar -->
         <div class="row">
-          <nav class="col navbar navbar-expand-lg navbar-light fixed-top">
+          <nav class="col navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#home">GM</a>
               <button
@@ -144,7 +150,7 @@
         </div>
       </div>
 
-      <div class="row workwrapper d-flex justify-content-center align-items-center text-center " >
+      <div class="row workwrapper d-flex justify-content-center align-items-center text-center text-dark" >
       <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="card">
             <img src="./images/pexels-negative-space-160107.jpg" class="card-img-top" alt="...">
@@ -153,10 +159,11 @@
               <p class="card-text"> Personal Website V1.0</p>
               
               <p>
-                <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn btn-dark btn-sm" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                  Read more
                 </a>
-                <a class="btn btn-outline-dark" href="https://gmangunay.github.io/W4B-Final-Project/" target ="_blank" role="button">See work</a>
+                
+                <a class="btn btn-outline-dark btn-sm" href="https://gmangunay.github.io/W4B-Final-Project/" target ="_blank" role="button">See work</a>
               </p>
               <div class="collapse" id="collapseExample">
                 <div class="card card-body">
@@ -177,10 +184,10 @@
               <p class ="card-title"> Robotics Project </p>
               <p class="card-text"> TI-RSLK MAX Maze Solver</p>
               <p>
-                <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn btn-dark btn-sm" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                  Read more
                 </a>
-                <a class="btn btn-outline-dark" href="https://www.youtube.com/watch?v=0NbVqedxP_Y" target ="_blank" role="button">See work</a>
+                <a class="btn btn-outline-dark btn-sm" href="https://www.youtube.com/watch?v=0NbVqedxP_Y" target ="_blank" role="button">See work</a>
               </p>
               
               <div class="collapse" id="collapseExample">
@@ -202,13 +209,13 @@
           <div class="card">
             <img src="./images/pexels-negative-space-160107.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class ="card-title"> Data Acquisition Project</p>
+              <p class ="card-title"> DAQ Project</p>
               <p class="card-text"> Non-Contact Temperature Gun</p>
               <p>
-                <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn btn-dark btn-sm" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                  Read more
                 </a>
-                <a class="btn btn-outline-dark" href="https://www.youtube.com/watch?v=MD0KFqtX8xk" target ="_blank" role="button">See work</a>
+                <a class="btn btn-outline-dark btn-sm" href="https://www.youtube.com/watch?v=MD0KFqtX8xk" target ="_blank" role="button">See work</a>
               </p>
               <div class="collapse" id="collapseExample">
                 <div class="card card-body">
@@ -232,10 +239,10 @@
               <p class ="card-title"> Senior Project</p>
               <p class="card-text">LED Electronic Ariel Flare (L.E.A.F)</p>
               <p>
-                <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn btn-dark btn-sm" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                  Read more
                 </a>
-                <a class="btn btn-outline-dark" href="#" target ="_blank" role="button">See work</a>
+                <a class="btn btn-outline-dark btn-sm" href="#" target ="_blank" role="button">See work</a>
               </p>
               <div class="collapse" id="collapseExample">
                 <div class="card card-body">
@@ -262,15 +269,17 @@
                 <h2>Contact</h2>
               </div>
             </div>
+          
 
             <div class="row contactwrapper">
               <div class="col">
+                <div class="row">
+                  <div class="col text-center">
+                    <h3>Location</h3>
+                  </div>
+                </div>
                 <!--Section: Contact v.1-->
                   <section class="section pb-5 text-center">
-
-                    <!--Section heading-->
-                    <h2 class="section-heading h1 pt-4">Location</h2>
-              
                     <div class="row">
 
                       <!--Grid column-->
@@ -279,7 +288,7 @@
                         <!--Form with header-->
                         <div class="card">
 
-                          <div class="card-body">
+                          <div class="card-body text-dark">
                             <!--Header-->
                             <div class="form-header blue accent-1">
                               <h3><i class="fas fa-envelope"></i> </h3>
@@ -360,9 +369,12 @@
 
               <div class="row footer">
                 <div class="col text-center">
-                    <i class="fab fa-instagram fa-lg"></i>
-                    <i class="fab fa-twitter fa-lg"></i>
-                    <i class="fab fa-linkedin fa-lg"></i>          
+                    <a href="https://www.instagram.com/genesis_mangunay/" target="blank"> <i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://twitter.com/?lang=en" target="blank"> <i class="fab fa-twitter fa-2x""></i></a>
+                    <a href="https://github.com/gmangunay" target="blank"> <i class="fab fa-github fa-2x""></i></a>
+                    <a href="https://www.linkedin.com/in/genesis-mangunay/" target="blank"> <i class="fab fa-linkedin fa-2x""></i></a>
+
+           
                   </div>
                 </div>
               </div>
