@@ -1,22 +1,14 @@
 
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
 html { 
     scroll-behavior: smooth; 
 } 
 
-.jumbotron{
-    height: calc(100vh);
-    
-    background-color: transparent;
-
-}
-
-/* profile picture */
-.img-thumbnail{
-    border: none;
-    border-radius: 10%;
-    margin-top: 50%;
-    margin-bottom: 50%;
-}
 input:checked, input:checked + * {
     background-color: #171717;
     color: white;
@@ -25,10 +17,22 @@ input:checked, input:checked + * {
 
 input[type="checkbox"]{
     position: fixed;
-    top: 100px;
+    top: 80px;
     right: 20px;
     z-index: 1; /* layers */
     cursor: pointer;
+}
+.jumbotron{
+    height: calc(100vh);
+    background-color: transparent;
+}
+
+
+.img-thumbnail{
+    border: none;
+    border-radius: 10%;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
 
 .btn{
@@ -50,6 +54,9 @@ input[type="checkbox"]{
 }
 .footer{
     padding: 15px;;
+}
+.footer a{
+    color: #787A91;
 }
 
 
