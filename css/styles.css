@@ -18,7 +18,7 @@ input:checked, input:checked + * {
 input[type="checkbox"]{
     position: fixed;
     top: 80px;
-    right: 20px;
+    right: 10px;
     z-index: 1; /* layers */
     cursor: pointer;
 }
@@ -38,23 +38,26 @@ input[type="checkbox"]{
 .btn{
     margin: 5px;
 }
+
+.location{
+    padding: 50px;
+}
+
 form{
-    display: flex;
-    flex-flow: column nowrap;
+
     background: #fff;
     padding: 40px;
     border-radius: 6px;
 }
 
-input, textarea{
-    margin-bottom: 25px;
-    padding: 8px;
+.submit, textarea{
+    margin-bottom: 35px;
     border: 2px solid #22AED1;
     border-radius: 6px;
     width:300px;
 }
 
-input:last-of-type{
+.submit:last-of-type{
     margin-bottom: 0;
 }
 
@@ -81,7 +84,7 @@ input[type=submit]{
     outline-offset: -1px;
 }
 
-input[type=submit]:hover{
+.card input[type=submit]:hover{
     outline-offset: 2px;
 }
 
@@ -108,7 +111,7 @@ textarea{
     padding: 15px;;
 }
 .footer a{
-    color: #787A91;
+    color: blue;
 }
 
 
