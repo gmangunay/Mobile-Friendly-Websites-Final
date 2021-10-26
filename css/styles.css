@@ -9,9 +9,14 @@ html {
     scroll-behavior: smooth; 
 } 
 
+/* dark mode */
 input:checked, input:checked + * {
-    background-color: #171717;
+    background-color:#121212;
     color: white;
+    transition: .8s;
+}
+
+input:checked, input:not(:checked) + * {
     transition: .8s;
 }
 
@@ -22,17 +27,26 @@ input[type="checkbox"]{
     z-index: 1; /* layers */
     cursor: pointer;
 }
+
+.container{
+    background-color: #FFFFFF;
+}
+
 .jumbotron{
     height: calc(100vh);
     background-color: transparent;
 }
 
+#point{
+   
+    height: 30px;
+    cursor: pointer;
+}
 
 .img-thumbnail{
     border: none;
     border-radius: 10%;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin: 30px;
 }
 
 .btn{
@@ -44,7 +58,6 @@ input[type="checkbox"]{
 }
 
 form{
-
     background: #fff;
     padding: 40px;
     border-radius: 6px;
@@ -61,15 +74,10 @@ form{
     margin-bottom: 0;
 }
 
-label{
-    font-size: 14px;
-    font-weight: 600;
-    color: rgba(0,0,0,.6);
-    margin-bottom: 2px;
-}
+
 
 input[type=submit]{
-    background-color: #016FB9;
+    background-color: #205278;
     color:white;
     border: none;
     border-radius: 6px;
@@ -80,7 +88,7 @@ input[type=submit]{
     width: 100px;
     transition: outline-offset .05s;
     cursor: pointer;
-    outline: 2px solid #016FB9;
+    outline: 2px solid #205278;
     outline-offset: -1px;
 }
 
@@ -91,6 +99,9 @@ input[type=submit]{
 textarea{
     resize: vertical;
     min-height: 100px;
+}
+.card i{
+    color: #205278;
 }
 
 .map-container-6{
@@ -111,8 +122,12 @@ textarea{
     padding: 15px;;
 }
 .footer a{
-    color: blue;
+    color:#205278;
 }
+.footer a:hover{
+    color:#3485c2
+}
+
 
 
 /* // Small devices (landscape phones, 300px and up) */
@@ -131,8 +146,9 @@ textarea{
     .contactwrapper{
         margin: 20px;
         margin-bottom: -20px;
-
     }
+   
+
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -150,6 +166,7 @@ textarea{
         margin: 60px;
         margin-bottom: -60px;
     }
+  
 }
 
 /* // Medium devices (tablets, 768px and up) */

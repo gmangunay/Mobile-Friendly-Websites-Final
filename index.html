@@ -23,14 +23,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
       rel="stylesheet"
       />
-
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap" rel="stylesheet">
-   
+   <!-- linking CSS -->
     <link rel="stylesheet" href="css/styles.css">
-
+    <!-- linking JS -->
     <script src="./JS/airtable.browser.js"></script>
     <script src="./JS/app.js"></script>
    
@@ -41,10 +40,9 @@
 
   <body>
     
-     <!--  <input class="form-check-input" type="checkbox"/> -->
-     <input type="checkbox"/>
-     
-
+    <!-- Dark Mode -->
+    <input type="checkbox" id="toggle">
+  
     <div class="container-fluid">
       
         <!-- navbar -->
@@ -117,8 +115,11 @@
                 </div>
               </div>  
               <br>
-            <h2>My name is Genesis</h2>
-           
+            <h2 id="name">My name is Genesis</h2>
+            <p>Get to know me</p>
+            <a href="#about"> 
+             <img src="./images/Down Index Emoji [Download iPhone Emojis].png"  alt="Pointing down" id="point">
+           </a>
           </div>
         </div>
       </div>
@@ -133,17 +134,17 @@
       <!-- About -->
       <div class="row aboutWrapper">
         <div class="col-sm-6 aboutPic d-flex justify-content-center align-items-center">
-          <img src="./images/profile_pic.jpg" alt="profile_pic" class="img-thumbnail">
+       <img src="./images/profile_pic.jpg" " alt="profile_pic" class="profile img-thumbnail">
         </div>
 
         <div class="col-sm-6 aboutText d-flex justify-content-center align-items-center ">
-          <p>Hey! &#128075; My name is Genesis and I graduated from California State University of Bakersfield 
-            with a Bachleors of Science in Computer Engineering. I'm currently ongoing an apprenticeship
-            with Alpha Works as a Solutions Engineer.
+          <p>Hey! &#128075; My name is <strong>Genesis</strong> and I graduated from <strong> California State University of Bakersfield</strong>
+            with a Bachleors of Science in <STRONG> Computer Engineering. </STRONG> I'm currently ongoing an apprenticeship
+            with Alpha Works as a <strong> Solutions Engineer.</strong> 
             <br>
       
             <br>
-            This is my Personal Website V2.0
+            <b> This is my Personal Website V2.0</b>
             <br>
         
             <br>
@@ -189,7 +190,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="card">
-                    <img src="./images/pexels-negative-space-160107.jpg" class="card-img-top" alt="...">
+                    <img src="./images/jelleke-vanooteghem-6NUlOHM40w8-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class ="card-title"> Robotics Project </p>
                       <p class="card-text"> TI-RSLK MAX Maze Solver</p>
@@ -217,7 +218,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="card">
-                    <img src="./images/pexels-negative-space-160107.jpg" class="card-img-top" alt="...">
+                    <img src="./images/sahand-babali-gavODTHG36Y-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class ="card-title"> DAQ Project</p>
                       <p class="card-text"> Non-Contact Temperature Gun</p>
@@ -244,7 +245,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="card">
-                    <img src="./images/pexels-negative-space-160107.jpg" class="card-img-top" alt="...">
+                    <img src="./images/alessio-soggetti-rSFxBGpnluw-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class ="card-title"> Senior Project</p>
                       <p class="card-text">LED Electronic Ariel Flare (L.E.A.F)</p>
@@ -299,20 +300,20 @@
                               <form id='contactForm' action="javascript:void(0);" onsubmit="handleSubmit('contactForm')">
                               
                                 <div class="md-form">
-                                  <i class="fas fa-user prefix grey-text"></i>
+                                  <i class="fas fa-user prefix"></i>
                                   <input id="name" type="text" name="name" placeholder="Name.." class="form-control">
                                 </div>
                               
                                 <div class="md-form">
-                                  <i class="fas fa-envelope prefix grey-text"></i>
+                                  <i class="fas fa-envelope prefix"></i>
                                   <input id="email" type="email" name="email" placeholder="email.." class="form-control">
                                 </div>
                                 <div class="md-form">
-                                  <i class="fas fa-phone grey-text"></i>
+                                  <i class="fas fa-phone red-text"></i>
                                   <input id="cell" type="tel" name="cell" placeholder="Phone.." class="form-control">
                                 </div>
                                 <div class="md-form">
-                                  <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                  <i class="fas fa-pencil-alt prefix"></i>
                                   <textarea id="reason" name="reason" placeholder="Message.." class="form-control"></textarea>
                                 </div>
                                 
