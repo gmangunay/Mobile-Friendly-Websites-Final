@@ -339,7 +339,22 @@
 
                         </div> -->
 
-                     
+                        <form id='contactForm' action="javascript:void(0);" onsubmit="handleSubmit('contactForm')">
+                          <label for="name">Name</label>
+                          <input id="name" type="text" name="name" placeholder="John Doe">
+                          
+                          <label for="email">Email</label>
+                          <input id="email" type="email" name="email" placeholder="john@example.com">
+                  
+                          <label for="cell">Cell</label>
+                          <input id="cell" type="tel" name="cell" placeholder="1 555 555 5555">
+                  
+                          <label for="reason">Reason for Contacting</label>
+                          <textarea id="reason" name="reason" placeholder="We've been trying to reach you about your car's extended warranty..."></textarea>
+                          
+                          <input type="submit" value="Submit">
+                      </form>
+                  
 
                         <!--Form with header-->
 
